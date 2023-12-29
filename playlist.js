@@ -186,6 +186,8 @@ document.addEventListener('DOMContentLoaded', () => {
             document.getElementById("jacket").src = 'jacket/draft1.png';
         }else if(li.id === 'nhm' || li.id === 'fkr'){
             document.getElementById("jacket").src = 'jacket/draft2.png';
+        }else if(li.id === 'gzc'){
+            document.getElementById("jacket").src = 'jacket/guuzou.png';
         }
       }
    
